@@ -305,7 +305,7 @@ class Research:
         return record
 
     def archive(self, domain):
-        url = "https://web.archive.org/cdx/search/cdx?" + urlencode({
+        url = "http://web.archive.org/cdx/search/cdx?" + urlencode({
             # CDX's documented wildcard form implies matchType=domain.
             "url": "*." + domain + "/", "output": "json",
             "fl": "timestamp,original,statuscode,mimetype", "limit": CDX_LIMIT,
