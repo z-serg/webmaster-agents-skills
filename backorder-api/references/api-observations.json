@@ -1,0 +1,421 @@
+{
+  "responses": [
+    {
+      "path": "/billmgr?func=backorder_list&out=backorder&filter=off&filter_params=all_domains&contains=%5Esib.ru%24%7C%5Emoonbot.ru%24&limit=1&offset=0",
+      "status": 200,
+      "type": "application/json;charset=utf-8",
+      "length": 1091,
+      "data": {
+        "aggregation": {
+          "filter_params": {
+            "deleting_next": 29068,
+            "deleting_today": 0,
+            "expired": 237287,
+            "freed_today": 4544,
+            "is_blocked": 1324,
+            "is_free": 16404133,
+            "is_judicial": 648
+          },
+          "include": {
+            "interesting": 5913,
+            "is_rkn_blocked": 0,
+            "org": 1,
+            "pending_delete": 0,
+            "person": 1
+          },
+          "next_delete_date": "2026-11-03",
+          "registrars": {
+            "REGRU": {
+              "REGRU-RU": 2
+            }
+          },
+          "total": 2,
+          "zones": {
+            "ru": 2
+          }
+        },
+        "records": [
+          {
+            "age": 2,
+            "age_first_reg": 8,
+            "age_prev_reg": 8,
+            "creation_date": "2024-10-19 18:58:31",
+            "delete_date": "2026-11-19",
+            "domain": "moonbot.ru",
+            "donors": 1,
+            "drop_close_time": null,
+            "first_creation_date": "2018-07-11 07:35:28",
+            "free_date": "2026-11-19",
+            "hits": null,
+            "hotness": 10,
+            "icon": false,
+            "is_blocked": false,
+            "is_free": false,
+            "is_intercepted": false,
+            "is_interesting": true,
+            "is_judicial": false,
+            "is_pending_delete": false,
+            "is_rkn_blocked": false,
+            "paid_till": "2026-10-19 18:58:31",
+            "person": "Private Person",
+            "previous_creation_date": "2018-07-11 07:35:28",
+            "price": {
+              "avg": 95675,
+              "current": 0,
+              "max": 190900,
+              "min": 450,
+              "next": 190
+            },
+            "real_delete_date": "1970-01-01",
+            "registrar": "REGRU-RU",
+            "rkn_history_available": false,
+            "visitors": null,
+            "x_value": 0,
+            "yandex_tic": 0
+          }
+        ]
+      }
+    },
+    {
+      "path": "/billmgr?func=backorder_list&out=backorder&filter=off&filter_params=all_domains&contains=%5Esib.ru%24%7C%5Emoonbot.ru%24&limit=1&offset=1",
+      "status": 200,
+      "type": "application/json;charset=utf-8",
+      "length": 1097,
+      "data": {
+        "aggregation": {
+          "filter_params": {
+            "deleting_next": 29068,
+            "deleting_today": 0,
+            "expired": 237287,
+            "freed_today": 4544,
+            "is_blocked": 1324,
+            "is_free": 16404133,
+            "is_judicial": 648
+          },
+          "include": {
+            "interesting": 5913,
+            "is_rkn_blocked": 0,
+            "org": 1,
+            "pending_delete": 0,
+            "person": 1
+          },
+          "next_delete_date": "2026-11-03",
+          "registrars": {
+            "REGRU": {
+              "REGRU-RU": 2
+            }
+          },
+          "total": 2,
+          "zones": {
+            "ru": 2
+          }
+        },
+        "records": [
+          {
+            "age": 29,
+            "age_first_reg": 29,
+            "age_prev_reg": 29,
+            "creation_date": "1997-09-28 06:04:37",
+            "delete_date": "2026-11-03",
+            "domain": "sib.ru",
+            "donors": 250,
+            "drop_close_time": null,
+            "first_creation_date": "1997-09-28 00:00:00",
+            "free_date": "2026-11-03",
+            "hits": null,
+            "hotness": 10,
+            "icon": true,
+            "is_blocked": false,
+            "is_free": false,
+            "is_intercepted": false,
+            "is_interesting": true,
+            "is_judicial": false,
+            "is_pending_delete": false,
+            "is_rkn_blocked": false,
+            "org": "AbsolutTech, LLC",
+            "paid_till": "2026-09-30 21:00:00",
+            "previous_creation_date": "1997-09-28 00:00:00",
+            "price": {
+              "avg": 71921,
+              "current": 1100,
+              "max": 450000,
+              "min": 400,
+              "next": 2000
+            },
+            "real_delete_date": "1970-01-01",
+            "registrar": "REGRU-RU",
+            "rkn_history_available": false,
+            "visitors": null,
+            "x_value": 0,
+            "yandex_tic": 1200
+          }
+        ]
+      }
+    },
+    {
+      "path": "/json/?filter_params=all_domains&contains=%5Esib.ru%24%7C%5Emoonbot.ru%24&limit=1&offset=0",
+      "status": 200,
+      "type": "application/json; charset=utf-8",
+      "length": 412,
+      "data": [
+        {
+          "domainname": "moonbot.ru",
+          "hotness": 10,
+          "price": 0,
+          "x_value": 0,
+          "yandex_tic": 0,
+          "links": 1,
+          "visitors": "",
+          "registrar": "REGRU-RU",
+          "old": 2,
+          "delete_date": "2026-11-19",
+          "rkn": false,
+          "judicial": false,
+          "block": false
+        },
+        {
+          "domainname": "sib.ru",
+          "hotness": 10,
+          "price": 1100,
+          "x_value": 0,
+          "yandex_tic": 1200,
+          "links": 250,
+          "visitors": "",
+          "registrar": "REGRU-RU",
+          "old": 29,
+          "delete_date": "2026-11-03",
+          "rkn": false,
+          "judicial": false,
+          "block": false
+        }
+      ]
+    },
+    {
+      "path": "/csv/?filter_params=all_domains&contains=%5Esib.ru%24%7C%5Emoonbot.ru%24&limit=1&offset=0",
+      "status": 200,
+      "type": "text/csv; charset=utf-8",
+      "length": 316,
+      "data": "\"domainname\";\"hotness\";\"price\";\"x_value\";\"yandex_tic\";\"links\";\"visitors\";\"registrar\";\"old\";\"delete_date\";\"rkn\";\"judicial\";\"block\"\r\n\"moonbot.ru\";\"10\";\"0\";\"0\";\"0\";\"1\";\"\";\"REGRU-RU\";\"2\";\"2026-11-19\";\"false\";\"false\";\"false\"\r\n\"sib.ru\";\"10\";\"1100\";\"0\";\"1200\";\"250\";\"\";\"REGRU-RU\";\"29\";\"2026-11-03\";\"false\";\"false\";\"false\"\r\n"
+    }
+  ],
+  "cases": [
+    {
+      "label": "include-org",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "include": "org"
+      },
+      "total": 1,
+      "domains": [
+        "sib.ru"
+      ]
+    },
+    {
+      "label": "include-person",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "include": "person"
+      },
+      "total": 1,
+      "domains": [
+        "moonbot.ru"
+      ]
+    },
+    {
+      "label": "include-both-comma",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "include": "org,person"
+      },
+      "total": 2,
+      "domains": [
+        "moonbot.ru",
+        "sib.ru"
+      ]
+    },
+    {
+      "label": "include-both-pipe",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "include": "org|person"
+      },
+      "total": 2,
+      "domains": [
+        "moonbot.ru",
+        "sib.ru"
+      ]
+    },
+    {
+      "label": "conflict-interesting",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "include": "interesting",
+        "exclude": "interesting"
+      },
+      "total": 0,
+      "domains": []
+    },
+    {
+      "label": "exclude-ordered",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "exclude": "ordered"
+      },
+      "total": 2,
+      "domains": [
+        "moonbot.ru",
+        "sib.ru"
+      ]
+    },
+    {
+      "label": "exclude-in-cart",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "exclude": "in_cart"
+      },
+      "total": 2,
+      "domains": [
+        "moonbot.ru",
+        "sib.ru"
+      ]
+    },
+    {
+      "label": "mode-cart",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "cart",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2"
+      },
+      "total": 2,
+      "domains": [
+        "moonbot.ru",
+        "sib.ru"
+      ]
+    },
+    {
+      "label": "mode-today",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "deleted_today",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2"
+      },
+      "total": 0,
+      "domains": []
+    },
+    {
+      "label": "zones-comma",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "zones": "ru,xn--p1ai"
+      },
+      "total": 2,
+      "domains": [
+        "moonbot.ru",
+        "sib.ru"
+      ]
+    },
+    {
+      "label": "first-age",
+      "status": 200,
+      "params": {
+        "func": "backorder_list",
+        "out": "backorder",
+        "filter": "off",
+        "filter_params": "all_domains",
+        "contains": "^sib.ru$|^moonbot.ru$",
+        "limit": "2",
+        "old_type": "first_creation",
+        "old": "5"
+      },
+      "total": 2,
+      "domains": [
+        "moonbot.ru",
+        "sib.ru"
+      ]
+    },
+    {
+      "label": "include-semantics:interesting,rkn",
+      "status": 200,
+      "total": 0,
+      "domains": []
+    },
+    {
+      "label": "include-semantics:org,pendingdelete",
+      "status": 429,
+      "error": {
+        "type": "access_blocked",
+        "msg": "Запрос заблокирован защитой сайта. Обновите страницу, а если не поможет — напишите в поддержку и укажите request_id."
+      }
+    },
+    {
+      "label": "include-semantics:interesting,person",
+      "status": 429,
+      "error": {
+        "type": "access_blocked",
+        "msg": "Запрос заблокирован защитой сайта. Обновите страницу, а если не поможет — напишите в поддержку и укажите request_id."
+      }
+    },
+    {
+      "label": "include-semantics:org,person,rkn",
+      "status": 200,
+      "total": 0,
+      "domains": []
+    }
+  ]
+}

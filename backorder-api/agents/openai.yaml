@@ -1,0 +1,3 @@
+interface:
+  display_name: "Backorder.ru API"
+  short_description: "Фильтры, API и выгрузки доменов Backorder.ru"
